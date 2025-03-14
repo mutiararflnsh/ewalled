@@ -1,0 +1,102 @@
+.nav-link {
+    padding: 10px;
+}
+
+body {
+    font-family: Open Sans;
+    background-color: #FAFBFD;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+  
+}
+
+a:hover {
+    font-weight: bold;
+    color:#0061FF ;
+}
+
+nav {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 94px;
+}
+
+.greet {
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.hello{
+   /* background-color: antiquewhite; */
+   align-items: center;
+}
+
+.account{
+    /* background-color: beige; */
+    display: flex;
+    flex-direction: row;
+    padding: 20px 10px;
+}
+
+.profpic{
+    display: flex;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    border: 5px solid #0061ff;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.account-info{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.account-number {
+    background-color: #0061FF;
+    width: 273px;
+    height: 216px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.account-balance {
+    background-color: white;
+    width: 913px;
+    height: 216px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    
+}
+
+.account-number, .account-balance {
+    position: relative; /* Agar teks dapat diatur posisinya relatif terhadap container */
+    padding: 20px;
+}
+
+.account-text {
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
